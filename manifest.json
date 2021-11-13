@@ -1,14 +1,20 @@
 {
   "name": "Custom Tab",
-  "description": "Allows a user to create a custom page, and automatically clears the address bar",
+  "description": "Redirects new tab to a basic webpage which the user can cusomize",
   "version": "1.0",
-  "manifest_version": 3,
+  "manifest_version": 2,
   "author": "Martin Fredin",
+  "options_page": "options.html",
   "chrome_url_overrides": {
-    "newtab": "tab.html"
+    "newtab": "tab/tab.html"
   },
   "background": {
     "service_worker": "background.js"
-  }
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*/*"
+  ]
 }
 
