@@ -1,6 +1,6 @@
 {
   "name": "Custom Tab",
-  "description": "Redirects new tab to a basic webpage which the user can customize.",
+  "description": "Redirects new tab to a basic web page which the user can customize.",
   "version": "1.0.0",
   "author": "Martin Fredin",
   "icons": { "16": "16icon.png",
