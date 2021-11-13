@@ -1,9 +1,12 @@
 {
   "name": "Custom Tab",
-  "description": "Redirects new tab to a basic webpage which the user can cusomize",
-  "version": "1.0",
-  "manifest_version": 2,
+  "description": "Redirects new tab to a basic webpage which the user can cusomize.",
+  "version": "1.0.0",
   "author": "Martin Fredin",
+  "icons": { "16": "16icon.png",
+             "48": "48icon.png",
+             "128": "128icon.png" },
+  "manifest_version": 2,
   "options_page": "options.html",
   "chrome_url_overrides": {
     "newtab": "tab/tab.html"
